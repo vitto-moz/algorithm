@@ -16,7 +16,7 @@ function _stringReversal(string) {
 
 
 
-describe.only("String Reversal", () => {
+describe("String Reversal", () => {
     it("Should retrun string reverse", () => {
         assert.equal(stringReversal("Hello World!"), "!dlroW olleH");
         assert.equal(_stringReversal("Hello World!"), "!dlroW olleH");

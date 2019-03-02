@@ -34,6 +34,14 @@ const __chunk = (array, size) => {
     return chunks;
 };
 
+// function split(arr, n) {
+//     var res = [];
+//     while (arr.length) {
+//         res.push(arr.splice(0, n));
+//     }
+//     return res;
+// }
+
 describe("Array Chunking", () => {
     it("Should implement array chunking", () => {
         assert.deepEqual(chunk([1, 2, 3, 4], 2), [[1, 2], [3, 4]]);
