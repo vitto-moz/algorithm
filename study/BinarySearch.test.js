@@ -24,5 +24,7 @@ describe.only("Binary Search", () => {
     it("Should return true if number is in the array and false if not", () => {
         assert.equal(binarySearch([1, 2, 5, 7, 89, 34, 23, 123], 123), true);
         assert.equal(binarySearch([1, 2, 5, 7, 89, 34, 23, 12], 123), false);
+        assert.equal(binarySearch([14, 214124, 123, 213, 8122255, 346656, 656, 34], 213), true);
+        assert.equal(binarySearch([-22, -66, 0, 14, 214124, 123, 213, 8122255, 346656, 656, 34], 213), true);
     });
 });
