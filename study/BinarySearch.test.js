@@ -20,7 +20,7 @@ function binarySearch(arr, value) {
 }
 
 
-describe.only("Binary Search", () => {
+describe("Binary Search", () => {
     it("Should return true if number is in the array and false if not", () => {
         assert.equal(binarySearch([1, 2, 5, 7, 89, 34, 23, 123], 123), true);
         assert.equal(binarySearch([1, 2, 5, 7, 89, 34, 23, 12], 123), false);
